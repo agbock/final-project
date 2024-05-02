@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+  margin: 0;
+  background: #d66d97;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #3691b3 ;
+  padding-top: 185px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #aebaad !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #ffc8a8 !important;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+  height: 520px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-image: url(header.jpeg);
+}
+
+
+
+.bg-pink {background-color: #dad5de !important ; }
+.bg-other {background-color: #ebd7cc !important ;}
+
+
+
+
+
+
+body { font-family:  Georgia, Verdana, serif; }
+
+
+h1, h2 {
+  font-family: "Akshar", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 50px;
+}
+
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+ul {
+  list-style-image: url('swirl copy.png');
+}
+
+
+
+
+
+
+
